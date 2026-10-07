@@ -46,7 +46,7 @@ class _ConfirmarPresencaViewState extends State<ConfirmarPresencaView> {
               ),
               const SizedBox(height: 20),
               DropdownButtonFormField<String>(
-                value: _controller.pontoEmbarque,
+                initialValue: _controller.pontoEmbarque,
                 decoration: const InputDecoration(
                   labelText: 'Ponto de Embarque / Desembarque',
                   border: OutlineInputBorder(),
